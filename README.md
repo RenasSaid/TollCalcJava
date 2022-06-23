@@ -1,18 +1,25 @@
-## Getting Started
+This is a program that will calculate the the tollcost of vehicles. Fees will differ between 8 SEK and 18 SEK, where a Motorbike is tolled 8kr, and car is tolled 11kr, depending on the time of day.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Rush-hour traffic will render the highest fee 18kr. Rush-hour is between 8.00-9.00 and 16.00-17.00. The maximum fee for one day is 60 SEK. Weekends are fee-free
 
-## Folder Structure
+How to run the Program.
+1. Main File.
+#Via Terminal. 1.1 Git clone git@github.com:heymikeey/TollCalculator_yhDevOps.git 
+1.2 Navigate to project\src 
+1.3 Write "javac Main.java" to compile. 
+1.4 Write "java Main" to run the program.
 
-The workspace contains two folders by default, where:
+#Via IntelliJ IDE
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Open cloned project via IntelliJ.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Just click on run button in the Main file, it will compile automatically and run the code.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Now you will see the tollCalculation for Vehicle Car and Vehicle Motorbike. You will also see Timestamps and total fee, when the Vehicles passes through the camera. We have put together 3 examples. The examples are in the TimeStamps.java.
 
-## Dependency Management
+TEST FILE
+This test file will test different outcomes of the tollCalculator.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Testfile is named "TollCalculatorTest" and is under src folder TollCalculatorTest.
+
+To run The Testing just click the "Play button" in the right upper corner if you run an IDE like IntelliJ.
