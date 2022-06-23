@@ -7,6 +7,4 @@ public abstract class Vehicle {
     protected Vehicle(String regNr) {
         this.regNr = regNr;
     }
-    
-
 }
