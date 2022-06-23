@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class TollCalculatorTest {
     TollCalculator tollCalculator = new TollCalculator();
-    Vehicle car = new Car("bte394");
-    Vehicle mc = new Motorbike("trq290");
+    Vehicle car = new Car("PMJ770");
+    Vehicle mc = new Motorbike("MTJ644");
     LocalDateTime nonRushHour = LocalDateTime.of(2021, 12, 6, 10, 10, 19);
     LocalDateTime morningRushHour = LocalDateTime.of(2021, 12, 6, 8, 10, 19);
     LocalDateTime afternoonRushHour = LocalDateTime.of(2021, 12, 6, 16, 30, 0);
