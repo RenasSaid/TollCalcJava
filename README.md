@@ -4,7 +4,7 @@ Rush-hour traffic will render the highest fee 18kr. Rush-hour is between 8.00-9.
 
 How to run the Program.
 1. Main File.
-#Via Terminal. 1.1 Git clone git@github.com:heymikeey/TollCalculator_yhDevOps.git 
+#Via Terminal. 1.1 Git clone git@github.com:RenasSaid/TollCalcJava.git
 1.2 Navigate to project\src 
 1.3 Write "javac Main.java" to compile. 
 1.4 Write "java Main" to run the program.
